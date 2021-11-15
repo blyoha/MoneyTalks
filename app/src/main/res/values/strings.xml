@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MoneyTalks</string>
+    <string name="login_label">MoneyTalks</string>
+    <string name="login_button">Sign In</string>
+    <string name="login_hint">Login</string>
+    <string name="password_hint">Password</string>
+</resources>
