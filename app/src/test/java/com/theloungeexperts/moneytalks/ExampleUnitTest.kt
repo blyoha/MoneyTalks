@@ -1,4 +1,4 @@
-package io.github.blyoha.moneytalks
+package com.theloungeexperts.moneytalks
 
 import org.junit.Test
 

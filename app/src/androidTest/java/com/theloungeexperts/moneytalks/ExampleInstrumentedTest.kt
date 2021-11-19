@@ -1,4 +1,4 @@
-package io.github.blyoha.moneytalks
+package com.theloungeexperts.moneytalks
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("io.github.blyoha.moneytalks", appContext.packageName)
+        assertEquals("com.theloungeexperts.moneytalks", appContext.packageName)
     }
 }
