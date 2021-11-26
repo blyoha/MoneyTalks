@@ -10,10 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MoneyTalks">
         <activity
-            android:name="com.theloungeexperts.moneytalks.HomeActivity"
+            android:name=".AccountActivity"
             android:exported="false" />
         <activity
-            android:name="com.theloungeexperts.moneytalks.LoginActivity"
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
