@@ -1,7 +1,14 @@
 <resources>
     <string name="app_name">MoneyTalks</string>
-    <string name="login_label">MoneyTalks</string>
-    <string name="login_button">Sign In</string>
-    <string name="login_hint">Login</string>
+    <string name="auth_label">MoneyTalks</string>
+    <string name="email_hint">Email</string>
     <string name="password_hint">Password</string>
+    <string name="login_button">Sign In</string>
+    <string name="login_bottom">Don\'t have an account?</string>
+    <string name="login_link">Login</string>
+    <string name="register_button">Sign Up</string>
+    <string name="register_bottom">Already have an account?</string>
+    <string name="register_link">Register</string>
+
+    <string name="title_home">Home</string>
 </resources>
