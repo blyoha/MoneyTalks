@@ -7,4 +7,13 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="brand">#3AB6EC</color>
+    <color name="morning">#F0F4F7</color>
+    <color name="constant_black">#000000</color>
+    <color name="constant_white">#FFFFFF</color>
+    <color name="midnight">#1B1B1D</color>
+    <color name="afterdark">#28282D</color>
+    <color name="day">#818990</color>
+
 </resources>
