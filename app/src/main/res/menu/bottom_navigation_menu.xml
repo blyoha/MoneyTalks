@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/feed"
+        android:enabled="true"
+        android:icon="@drawable/ic_feed_24dp"
+        android:title="@string/feed_desc"/>
+    <item
+        android:id="@+id/investmentTools"
+        android:enabled="true"
+        android:icon="@drawable/ic_trending_up_black_24dp"
+        android:title="@string/tools_desc"/>
+    <item
+        android:id="@+id/profile"
+        android:enabled="true"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="@string/profile_desc" />
+</menu>

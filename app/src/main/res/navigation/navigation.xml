@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/feed">
+    <fragment
+        android:id="@+id/feed"
+        android:name="com.theloungeexperts.moneytalks.FeedFragment"
+        android:label="FeedFragment" />
+    <fragment
+        android:id="@+id/investmentTools"
+        android:name="com.theloungeexperts.moneytalks.investmentToolsFragment"
+        android:label="fragment_investment_tools"
+        tools:layout="@layout/fragment_investment_tools" />
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.theloungeexperts.moneytalks.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

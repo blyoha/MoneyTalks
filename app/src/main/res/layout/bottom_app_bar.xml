@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".InvestmentToolsActivity">
+
+    <ImageButton
+        android:id="@+id/feedButton"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_weight="1"
+        android:contentDescription="@string/feed_desc"
+        app:srcCompat="@drawable/ic_feed_24dp"
+        android:background="@null"/>
+
+    <ImageButton
+        android:id="@+id/toolsButton"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_weight="1"
+        android:contentDescription="@string/tools_desc"
+        app:srcCompat="@drawable/ic_trending_up_black_24dp"
+        android:background="@null" />
+
+    <ImageButton
+        android:id="@+id/profileButton"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_weight="1"
+        android:contentDescription="@string/profile_desc"
+        app:srcCompat="@drawable/ic_person_black_24dp"
+        android:background="@null" />
+
+
+</LinearLayout>
