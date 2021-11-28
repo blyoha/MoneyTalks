@@ -19,10 +19,10 @@ class RegisterActivity : AppCompatActivity() {
 
         binding.apply {
             loginLink.setOnClickListener {
-                startActivity(Intent(this@RegisterActivity, LoginActivity::class.java))
+                onBackPressed()
             }
 
-            registerButton.setOnClickListener {
+            signUpButton.setOnClickListener {
                 when {
                     TextUtils.isEmpty(emailInput.text.toString().trim { it <= ' ' }) -> {
                         Toast.makeText(
