@@ -1,14 +1,36 @@
 <resources>
     <string name="app_name">MoneyTalks</string>
     <string name="auth_label">MoneyTalks</string>
-    <string name="email_hint">Email</string>
-    <string name="password_hint">Password</string>
+    <string name="welcome">Welcome to</string>
+    <string name="email_hint">email</string>
+    <string name="password_hint">password</string>
+
     <string name="login_button">Sign In</string>
-    <string name="login_bottom">Don\'t have an account?</string>
+    <string name="register_link">Create account</string>
+    <string name="login_bottom">or</string>
+
     <string name="login_link">Login</string>
-    <string name="register_button">Sign Up</string>
     <string name="register_bottom">Already have an account?</string>
-    <string name="register_link">Register</string>
+    <string name="register_button">Sign Up</string>
 
     <string name="title_home">Home</string>
+
+    <string name="feed_desc">Feed</string>
+    <string name="tools_desc">Tools</string>
+    <string name="profile_desc">Profile</string>
+
+    <string name="stocks_label">Stocks</string>
+    <string name="currencies_label">Currencies</string>
+    <string name="etf_label">ETFs</string>
+
+    <string name="feed_label">Feed</string>
+
+    <string name="card_theme">Investments</string>
+    <string name="card_author">Red Investor</string>
+    <string name="card_time">10 minutes</string>
+    <string name="card_title">Post title</string>
+    <string name="card_content">Post content</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>
